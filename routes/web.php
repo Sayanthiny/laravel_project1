@@ -13,12 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('home', function () {
-    return view('pages.home');
-});
+// Route::get('home', function () {
+//     return view('pages.home', ['name' => 'Apptimus tech',
+//     'tag'=>'We are learning larawel in tamil']);
+// });
+Route::get('home', 'PageController@home');
+
 Route::get('contact', function () {
     return view('pages.contact');
 });

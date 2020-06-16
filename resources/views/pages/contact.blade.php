@@ -11,9 +11,30 @@
     <title>Hello, Apptimus tech!</title>
   </head>
   <body>
-  <div class="container">
-    <h1 class="display-3">this is contact page</h1>
+  
+  <!--nav bar-->
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="home">HOME <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="contact">CONTACT</a>
+      <a class="nav-item nav-link" href="aboutus">ABOUT</a>
+      
     </div>
+  </div>
+</nav>
+ <div class="content container pt-3">
+  <!-- jumbotron-->
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Welcome to Apptimus Tech</h1>
+    <p class="lead">We are learning larawel </p>
+    <p class="lead1">this is contact us page </p>
+  </div>
+</div>
+</div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -27,6 +27,16 @@
                 </div>
             @endif
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="home">HOME <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="contact">CONTACT</a>
+      <a class="nav-item nav-link" href="aboutus">ABOUT</a>
+      
+    </div>
+  </div>
+</nav>
+
             <div class="content container pt-3">
             <div class="jumbotron">
                 <h1 class="display-4">Hello, Apptimus tech!</h1>
@@ -42,13 +52,5 @@
 
             </div>
         </div>
-
-        <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link" href="home">HOME</a>
-    <a class="nav-link" href="contact">CONTACT</a>
-    <a class="nav-link" href="aboutus" target="_blank">ABOUT-US</a>
-  </li>
-</ul>
     </body>
 </html>
