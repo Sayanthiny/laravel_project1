@@ -8,10 +8,18 @@ class PageController extends Controller
 {
     public function home()
     {
-        return view('pages.home', ['name' => 'Apptimus tech',
-        'tag'=>'We are hiring internship trainee for SE']);
+        date_default_timezone_set('Asia/Calcutta');
+        $hour = date('G');
+        $hour=14;
+        return view('pages.home',
+         ['name' => 'Apptimus tech',
+            'tag'=>'We are hiring internship trainee for SE',
+            'hour'=>$hour
+           
+         ]
+        );
     }
-
+    
     public function contact()
     {
         return view('pages.contact');
@@ -23,6 +31,8 @@ class PageController extends Controller
     }
     public function team()
     {
-        return view('pages.team');
+        return view('pages.team',
+        ['totalTeam'=>30]
+    );
     }
 }

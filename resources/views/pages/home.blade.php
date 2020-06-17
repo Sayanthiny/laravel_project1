@@ -31,6 +31,28 @@
     <h1 class="display-4">Welcome to {{$name}}</h1>
     <p class="lead">{{$tag}} </p>
     <p class="lead1">this is home page </p>
+    
+    <!-- time based saying -->
+
+      @if ($hour >= 20)
+        <p class="lead"><div class="alert alert-danger" role="alert">
+        Good Night
+        </div> </p>
+      @elseif ($hour > 17) {
+        <p class="lead"><div class="alert alert-dark" role="alert">
+        Good Evening
+        </div> </p>
+      @elseif ($hour > 11) {
+        <p class="lead"><div class="alert alert-info" role="alert">
+        Good Afternoon
+        </div> </p> 
+      @elseif ($hour < 12) {
+        <p class="lead"><div class="alert alert-primary" role="alert">
+        Good Morning 
+        </div></p>
+      @endif
+
+
   </div>
 </div>
 

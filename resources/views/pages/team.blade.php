@@ -28,10 +28,17 @@
   <!-- jumbotron-->
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">this is our team</h1>
+    <h1 class="display-4">this is our  
+    @if($totalTeam>25)
+          big team
+    @else
+          small team
+    @endif
+    </h1>
     <p class="lead">you can join and have fun with code </p>
     <p class="lead1">have fun...! </p>
-  </div>
+       
+</div>
 </div>
 
 <!--card view-->
