@@ -19,6 +19,7 @@
       <a class="nav-item nav-link active" href="home">HOME <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="contact">CONTACT</a>
       <a class="nav-item nav-link" href="aboutus">ABOUT</a>
+      <a class="nav-item nav-link" href="team">TEAMS</a>
       
     </div>
   </div>

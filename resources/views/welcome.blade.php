@@ -32,9 +32,8 @@
       <a class="nav-item nav-link active" href="home">HOME <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="contact">CONTACT</a>
       <a class="nav-item nav-link" href="aboutus">ABOUT</a>
-      
+      <a class="nav-item nav-link" href="team">TEAMS</a>
     </div>
-  </div>
 </nav>
 
             <div class="content container pt-3">
@@ -46,11 +45,11 @@
                 
                 <div class="links">
                     <a href="https://appslanka.lk">Our Website</a>
-                    <a href="/home"></a>                    
+                    <a href="/"></a>                    
                 </div>
             </div>
 
             </div>
-        </div>
+            </div>
     </body>
 </html>

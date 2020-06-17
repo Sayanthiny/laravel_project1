@@ -12,16 +12,23 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', function () {
+    return view('welcome');
+});
 
 // Route::get('home', function () {
 //     return view('pages.home', ['name' => 'Apptimus tech',
 //     'tag'=>'We are learning larawel in tamil']);
 // });
-Route::get('home', 'PageController@home');
 
-Route::get('contact', function () {
-    return view('pages.contact');
-});
-Route::get('aboutus', function () {
-    return view('pages.about');
-});
+Route::get('home', 'PageController@home');
+Route::get('contact', 'PageController@contact');
+Route::get('aboutus', 'PageController@about');
+Route::get('team', 'PageController@team');
+
+// Route::get('contact', function () {
+//     return view('pages.contact');
+// });
+// Route::get('aboutus', function () {
+//     return view('pages.about');
+// });
